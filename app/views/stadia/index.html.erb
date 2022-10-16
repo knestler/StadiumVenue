@@ -1,0 +1,7 @@
+<h1> Stadiums </h1>
+
+<% @stadia.each do |stadium| %>
+  <p><b> <%= stadium.name %></b></p> 
+  <p> Capacity: <%= stadium.capacity %></p> 
+  <p> Indoor: <%= stadium.indoor %></p> 
+<%end%>
