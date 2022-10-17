@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get '/teams', to: 'teams#index'
   get '/teams/:id', to: 'teams#show'
-
+  
+  get '/stadia/:stadia_id/teams', to: 'stadium_teams#index'
+  get '/stadia/:stadia_id/teams/:teams_id', to: 'stadium_teams#show'
 
 end

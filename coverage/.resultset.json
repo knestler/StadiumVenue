@@ -248,7 +248,7 @@
           null,
           1,
           1,
-          null,
+          1,
           null,
           null
         ]
@@ -262,7 +262,7 @@
       "/Users/kristennestler/turing/mod2/projects/stadium_venue/app/models/stadium.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
@@ -276,20 +276,18 @@
       "/Users/kristennestler/turing/mod2/projects/stadium_venue/app/models/team.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
-      "/Users/kristennestler/turing/mod2/projects/stadium_venue/app/controllers/teams_controller.rb": {
+      "/Users/kristennestler/turing/mod2/projects/stadium_venue/app/controllers/stadium_teams_controller.rb": {
         "lines": [
           1,
           null,
           1,
+          1,
+          1,
           0,
-          null,
-          null,
-          1,
-          1,
           null,
           null
         ]
@@ -301,6 +299,6 @@
         ]
       }
     },
-    "timestamp": 1665932275
+    "timestamp": 1665971529
   }
 }

@@ -1,0 +1,11 @@
+<h1> Stadiums Teams </h1>
+<% @teams.each do |team| %>
+  <h3><%= team.name%></h3>
+  <p>Stadium ID: <%= team.stadium_id%></p>
+  <p>ID: <%= team.id%></p>
+  <p>Sport: <%= team.sport%></p>
+  <p>Home Games: <%= team.home_games%></p>
+  <p>Away Games: <%= team.away_games%></p>
+  <p>Men's Team: <%= team.male%></p>
+  <hr>
+<%end %>
