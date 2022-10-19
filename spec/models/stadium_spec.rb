@@ -14,7 +14,10 @@ RSpec.describe Stadium do
   it {should have_many :teams}
   
   it 'should order stadiums by date/time created' do 
+    # require 'pry'; binding.pry
     expect(Stadium.order_by).to eq([@levis, @metlife, @sofi])
+    expect(Stadium.order_by).to_not eq([@sofi, @metlife, @levis])
+
   end
 
   it 'should order stadiums by date/time created' do 

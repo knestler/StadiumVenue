@@ -416,13 +416,44 @@
           null
         ]
       },
+      "/Users/kristennestler/turing/mod2/projects/stadium_venue/spec/models/stadium_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          3,
+          3,
+          3,
+          null,
+          3,
+          3,
+          null,
+          null,
+          2,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/kristennestler/turing/mod2/projects/stadium_venue/app/models/stadium.rb": {
         "lines": [
           1,
           1,
           null,
           1,
-          0,
+          2,
           null,
           null,
           null
@@ -435,6 +466,16 @@
           null,
           null,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/kristennestler/turing/mod2/projects/stadium_venue/spec/models/team_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
           null,
           null
         ]
@@ -515,6 +556,6 @@
         ]
       }
     },
-    "timestamp": 1666190183
+    "timestamp": 1666191242
   }
 }
