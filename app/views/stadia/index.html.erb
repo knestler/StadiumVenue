@@ -1,7 +1,13 @@
-<h1> Stadiums </h1>
+<%= link_to "Team's", "/teams"%>
+<%= link_to "Stadium's", "/stadia"%>
+<%= link_to "New Stadia", "/stadia/new"%>
+
+<h1> Stadiums </h1></h1>
 
 <% @stadia.each do |stadium| %>
-  <p><b> <%= stadium.name %></b></p> 
+  <p><b> <%= stadium.name %></b> <%= stadium.created_at %> </p> 
+  <p> ID: <%= stadium.id %></p> 
   <p> Capacity: <%= stadium.capacity %></p> 
   <p> Indoor: <%= stadium.indoor %></p> 
+  <p> Team Count: <%= stadium.teams.count %></p> 
 <%end%>

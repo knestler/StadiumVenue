@@ -1,0 +1,12 @@
+<%= form_with url: "/stadia", method: :post, local: true do |form| %>
+  <p><%= form.label :name, "Name:" %>
+   <%= form.text_field :name %></p>
+   <p><%= form.label :capacity, "Capacity:" %>
+   <%= form.number_field :capacity %></p>
+   <p><%= form.radio_button :indoor, true %>
+      <%= form.label :indoor_yes, "Indoor Stadium" %>
+      <%= form.radio_button :indoor, false %>
+      <%= form.label :indoor_no, "Outdoor Stadium" %></p>
+   <p><%= form.submit "Create Stadium" %>
+  
+<% end %>

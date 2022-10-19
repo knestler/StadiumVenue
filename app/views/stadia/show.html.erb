@@ -1,3 +1,7 @@
+<%= link_to "Stadium Team's", "/stadia/#{@stadia.id}/teams"%>
+<%= link_to "Team's", "/teams"%>
+<%= link_to "Stadium's", "/stadia"%>
+
 <h1><%= @stadia.name%></h1>
 
 <p>ID: <%= @stadia.id%></p>
@@ -5,3 +9,4 @@
 <p>Indoor: <%= @stadia.indoor%></p>
 <p>Created: <%= @stadia.created_at%></p>
 <p>Updated: <%= @stadia.updated_at%></p>
+<p>Teams: <%= @stadia.teams.count%></p>
