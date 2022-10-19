@@ -13,8 +13,8 @@ RSpec.describe Stadium do
   
   it {should have_many :teams}
   
-  xit 'should order stadiums by date/time created' do 
-    expect(Stadium.order_by).to eq([@sofi, @metlife, @levis])
+  it 'should order stadiums by date/time created' do 
+    expect(Stadium.order_by).to eq([@levis, @metlife, @sofi])
   end
 
   it 'should order stadiums by date/time created' do 

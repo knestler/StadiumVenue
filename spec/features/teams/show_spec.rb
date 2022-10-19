@@ -32,7 +32,6 @@ RSpec.describe 'the team show page' do
     team_1 = Team.create!(name: "Jets", sport: "Football", home_games: 12, away_games: 13, male: true, stadium_id: @stadium.id)
     team_2 = Team.create(name: "Giants", sport: "Football", home_games: 14, away_games: 11, male: true, stadium_id: @stadium.id)
     visit "/teams/#{team_1.id}"
-       save_and_open_page
 
     expect(page).to(have_link("Stadium's"))
     click_link("Stadium's")
